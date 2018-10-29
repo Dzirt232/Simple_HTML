@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<header>
+    <a href="../index.html">Вернуться на главную</a>
+    <ul>
+        <li><a href="Titles.html">Статьи</a></li>
+        <li><a href="Catalog.html">Каталог</a></li>
+        <li><a href="Gallery.html">Галерея изображений</a> </li>
+        <li><strong><a href="Registration.html">Регистрация</a></strong> </li>
+        <li><a href="Contacts.html">Контакты</a> </li>
+    </ul>
+</header>
+<form action="post.php">
+    <fieldset>
+        <legend><h3>Регистрация</h3></legend>
+        <label>
+            Фамилия<br>
+            <input type="text" size="40"/>
+            <br>
+        </label>
+        <label>
+            Имя<br>
+            <input type="text" size="40"/>
+            <br>
+        </label>
+        <label>
+            Отчество<br>
+            <input type="text" size="40"/>
+            <br>
+        </label>
+        <label>
+            Загрузить фотографию<br>
+            <input type="file"/>
+            <br>
+        </label>
+        <label>
+        Email<br>
+        <input type="text" size="40"/>
+        <br>
+        </label>
+        <label>
+            Придумайте пароль<br>
+            <input type="password" size="30"/>
+            <br>
+        </label>
+        <label>
+            Aдрес сайта<br>
+            <input type="text" size="60" value="http://"/>
+            <br>
+        </label>
+            Выберите пол<br>
+            <label><input type="radio" name="gender" value="male"/> М</label>
+            <label><input type="radio" name="gender" value="female"/> Ж</label><br>
+        <label>
+            Дата рождения<br>
+            <input type="date"/>
+            <br>
+        </label>
+        Блюда какой кухни вы предпочитаете?<br>
+        <label><input type="checkbox" name="cuisine" value="eur"/>Европейская </label> <br>
+        <label><input type="checkbox" name="cuisine" value="east"/>Восточная</label> <br>
+        <label><input type="checkbox" name="cuisine" value="rus"/>Русская</label> <br>
+        <label>Расскажите о себе ещё что-нибудь :)<br>
+        <textarea cols="40" rows="10" name="biography"></textarea><br><br>
+        </label>
+        <input type="submit" value="Зарегистрироваться"/><br><br>
+        <input type="reset" value="Очистить форму"/><br><br>
+    </fieldset>
+</form>
+<footer>
+    &copy; Valakhar
+</footer>
+</body>
+</html>
